@@ -1,0 +1,23 @@
+{
+  "name": "stassargin/myparser",
+  "description": "My parser (cURL)",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "StasSargin",
+      "email": "stassargin@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "coderockr/php-query": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "App/"
+    },
+    "files": [
+      "helpers.php"
+    ]
+  }
+}
